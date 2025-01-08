@@ -1,0 +1,538 @@
+<!-- this my first website, created January 5, 2025 -->
+
+
+<!--its good practice to specify the type of document so that the browser knows to use html5-->
+<!DOCTYPE html>
+<html>
+
+<!--head never appears in the website itself but is identifying info for the browser to know-->
+<head>
+    <!--this is the name of the website-->
+    <title> My first website </title>
+
+    <!--meta tags belong in the title and tell the browser what the website is about-->
+    <meta name = "description" content = "Top 10 Modern Affordable And Handsome Sports Cars">
+    <meta name = "author" content = "Patrick Wang">
+
+    <!--this meta tag can be used for SEO-->
+    <meta name = "keywords" content = "Cool Cars, Top 10 Cars, Top 10 Lists, Top Cars"
+
+</head>    
+
+<!--this is the stuff inside the website-->
+<body>
+    <!--h1 is big text, h2 is smaller, h3...-->
+    <h1>Top 10 Modern Handsome, Affordable, and Capable Sports Cars</h1>
+    <h3>Author: Patrick Wang </h3>
+    <h3>Date: January 5, 2025 </h3>
+    <!--to add a hyperlink to an email account, use an a tag and set href attribute to address-->
+    <h3><a href = "mailto:pwangsuper@gmail.com" target = _self>
+        email me!
+    </a></h3>
+
+    <!-- regular text doesnt need any tags-->
+    These are the top 10 modern cars. Many people love to drive around in old facebook marketplace cars, but if you ask me, 
+    Id rather fork over a little more money to get something a little more modern than go on craiglist to get a shitbox that 
+    might blow up any day. A new sports car can be a daily driver and a track monster at the same time and will last longer 
+    allowing you to make more memories with your car. This is why I compiled this list for all of you. Now I must admit, as an Asian 
+    dude, I may be biased towards JDM and it may show in the rankings (significantly), but here is my top 10 cars wishlist, their 
+    specs, and their ranks on the Patrick Scale. <br></br> <b>Feel free to buy me any of these pls.</b>
+
+    <!-- <hr> is a line for formatting, it is self closing-->
+    <hr>
+    <!-- <br> is a line break-->
+    <br></br>
+
+    
+    <!-- this is how you include an image: (the a tag is not necessary, explanaion below)-->
+        <!--height and width attributes will scale proportionately if you only include one attribute, if you include 
+            both it may stretch the image-->
+        <!--alt attribute is used for accessability: if the person using the website is using a screen 
+            reader, alt is what is going to be read to them-->
+        <!--title attribute is what appears in a box when you hover over the image-->
+        <!--by wrapping the image src around an a attribute, we are making this image a hyperlink-->
+        <!--you can direct the user to a new link if they click on the image by surrounding the img tag with a tags-->
+    <a href="https://www.vw.com/en/models/golf-r.html" target="_blank">
+        <img src="./picsMain/Golf2025.webp" width = 750 alt = "A VW Golf drifting on pavement" title = "Image Source:">
+    </a>
+    <!--this is how you include a hyperlink:-->
+        <!--open the page in the same tab is the default when you dont specificy target or by specifying target=_self-->
+        <!--open the page in a new tab is specified by target=_blank-->
+    <h2><a href="https://www.vw.com/en/models/golf-r.html" target = _blank title = "this takes you to Volkswagen's website" > 
+    #10 - VW Golf R 2025
+    </a></h2>
+
+    <!--Lists:-->
+    <!--there are 3 kinds- unordered, ordered, description-->
+    <!--unordered list uses ul/l1 tag, ordered list uses ol/li tag, description list uses dl/dt/dd tag-->
+    <!--unordered list is bullet points, ordered list is 123 lists, description list is term and definition style-->
+    <h3>Stats: </h3>
+    <ul>
+        <li>MSRP: $45,665</li>
+        <li>engine: 2.0L turbocharged Inline 4</li>
+        <li>0-60: 4.3 seconds</li>
+        <li>horsepower: 315 at 5,900 rpm</li>
+        <li>torque: 295 lb-ft at 2,000 rpm</li>
+        <li>transmission: 6 speed manual or 7 speed auto</li>
+    </ul>
+
+    <!--the b tag is used to bold some text-->
+    The <b>Volkswagen Golf R</b> is a nice little sporty hot hatch. But it stops at just about there. I cant get myself behind
+    the appearance of the Golf R, because it blends in with normal traffic too well and doesnt feel very special. Specs wise, 
+    this is a solid choice but this little guy just isnt exactly handsome. 
+    <br></br>
+
+    <!--this is how you include audio:-->
+        <!--controls is a boolean attribute that is set as true if the keyword is included in the audio tag and false if not
+            and gives the popup to control the pause/play, timestamp, and volume-->
+        <!--loop attribute tells whether to auto replay the audio-->
+        <!--mute attribute tells whether the audio is set to mute as default when it is played-->
+        <!--autoplay attribute tells whether the audio automatically plays when the website is loaded-->
+    <audio controls src="./soundMain/GolfSound.m4a">
+        this web browser doesnt support our provided audio file types
+    </audio>
+
+    <!--another example of unordered list-->
+    <h3>The Patrick Scale: </h3>
+    <ul>
+        <li>Rizz: 0/5</li>
+        <li>GYAT: 2/5</li>
+        <li>Attention grabbing: 0/5</li>
+        <li>fun to drive: 4/5</li>
+        <li>legacy: 3/5</li>
+        <li><b>OVERALL: 9/25</b></li>
+    </ul>
+    <a href="golfGallery.html" target = _blank > 
+        Golf Gallery!
+    </a>
+    <br></br>
+
+
+    <img src="./picsMain/Elentra2025.jpg" width = 750>
+    <h2><a href="https://www.hyundaiusa.com/us/en/vehicles/elantra-n" target = _blank title = "this takes you to Hyundai's website" > 
+    #9 - Hyundai Elentra N 2024
+    </a></h2>
+    <h3>Stats: </h3>
+    <ul>
+        <li>MSRP: $33,700</li>
+        <li>engine: 2.0L turbocharged Inline 4</li>
+        <li>0-60: 5.2 seconds</li>
+        <li>horsepower: 276 at 5,500 rpm</li>
+        <li>torque: 289 lb-ft at 2,100 rpm</li>
+        <li>transmission: 6 speed manual or 8 speed auto</li>
+    </ul>
+    The <b>Hyundai Elantra</b> is pretty OP for its price ngl. I think hyundai is only making this car
+    so cheap so they can dip their toes in the competative sports car market while competing against 
+    other brands that have legacy. So why isnt it higher up on the list? Its because Legacy. Hyundai lacks 
+    history as it is a relativelt new brand, but if you are just in it for the specs, then this car will 
+    give you the best bang for your buck out of all of the cars here.
+    <br></br>
+
+    <!--the audio tag can be edited to include additional file types in case a browser doesnt support a 
+        certain type, these are called nested sources. it can also display a message in case the browser 
+        doesnt support any of the provided types-->
+    <audio controls>
+        <source src = "./soundMain/ElentraSound.m4a">
+        this web browser doesnt support our provided audio file types
+    </audio>
+
+    <br></br>
+    <h3>The Patrick Scale: </h3>
+    <ul>
+        <li>Rizz: 2/5</li>
+        <li>GYAT: 2/5</li>
+        <li>Attention grabbing: 3/5</li>
+        <li>fun to drive: 3/5</li>
+        <li>legacy:0/5</li>
+        <li><b>OVERALL: 10/25</b></li>
+    </ul>
+    <a href="elentraGallery.html" target = _blank > 
+        Elentra Gallery!
+    </a>
+    <br></br>
+
+
+    <img src="./picsMain/WRX2021.jpg" width = 750>
+    <h2><a href="https://www.subaru.com/owners/vehicle-resources.html?model=2021-WRX-MUV" target = _blank title = "this takes you to Subaru's website" > 
+    #8 - Subaru WRX STI 2021
+    </a></h2>
+    <h3>Stats: </h3>
+    <ul>
+        <li>MSRP: $36,955</li>
+        <li>engine: 2.5L turbocharged boxer 4</li>
+        <li>0-60: 5.3 seconds</li>
+        <li>horsepower: 310 at 6,500 rpm</li>
+        <li>torque: 290 lb-ft at 4,000 rpm</li>
+        <li>transmission: 6 speed manual</li>
+    </ul>
+    <br></br>
+    The <b>Subaru WRX STI</b> is a rally legend built for the road. My parents own a forester, but its not exactly as fun as this WRX. 
+    This guy's got performance and plenty of leg room, and its built to handle both the track and the off road. twisty backroads to 
+    city streets. Its extremely versitile and fun to drive, but it also falls into the trap of blending into regular traffic. This was 
+    the last WRX STI Subaru is making, which is pretty sad and shows how they are transitioning as a company from focusing on fun cars 
+    to family cars, which means its hard to be rizzy when pulling up in one of these newer Subarus.
+    <br></br>
+    <audio controls>
+        <source src = "./soundMain/WRXSound.m4a">
+        this web browser doesnt support our provided audio file types
+    </audio>
+    <br></br>
+    <h3>The Patrick Scale: </h3>
+    <ul>
+        <li>Rizz: 0/5</li>
+        <li>GYAT: 1/5</li>
+        <li>Attention grabbing: 2/5</li>
+        <li>fun to drive: 4/5</li>
+        <li>legacy:5/5</li>
+        <li><b>OVERALL: 12/25</b></li>
+    </ul>
+    <a href="wrxGallery.html" target = _blank > 
+        WRX Gallery!
+    </a>
+    <br></br>
+
+
+    <img src="./picsMain/Civic2025.avif" width = 750>
+    <h2><a href="https://automobiles.honda.com/civic-type-r" target = _blank title = "this takes you to Dodge's website" > 
+    #7 - Honda Civic Type R 2024
+    </a>
+    <br></br>
+    <h3>Stats: </h3>
+    <ul>
+        <li>MSRP: $45,895</li>
+        <li>engine: 2.0L turbocharged inline 4</li>
+        <li>0-60: 4.9 seconds</li>
+        <li>horsepower: 315 at 6,500 rpm</li>
+        <li>torque: 310 lb-ft at 2,600 rpm</li>
+        <li>transmission: 6 speed manual</li>
+    </ul>
+    </h2>
+    The <b>Honda Civic</b> is a darty kind of car. I drove a civic during high school, and I have to say, for a cheap economy
+    car like that, it sure is zippy through the streets. Sometimes, I feel like I am driving a go cart when I am in that thing. So 
+    why isnt it higher up on the list? Its got legacy. Its got power. But what its missing is once again, uniqueness. It just blends 
+    in with common traffic too well. We know the type R is capable, but Honda doesnt do a lot to distinguish the type R from the 
+    civics you see sitting in traffic, which basically makes it harder to rizz with. Furthermore, the front wheel drive system makes 
+    this car basically impossible to drift unless its snowing, which is why even though it feels like a go cart, this car doesnt rank 
+    very well for fun to drive category.
+    <br></br>
+    <audio controls>
+        <source src = "./soundMain/CivicSound.m4a">
+        this web browser doesnt support our provided audio file types
+    </audio>
+    <br></br>
+    <h3>The Patrick Scale: </h3>
+    <ul>
+        <li>Rizz: 2/5</li>
+        <li>GYAT: 3/5</li>
+        <li>Attention grabbing: 2/5</li>
+        <li>fun to drive: 4/5</li>
+        <li>legacy:5/5</li>
+        <li><b>OVERALL: 15/25</b></li>
+    </ul>
+    <br></br>
+    <a href="civicGallery.html" target = _blank > 
+        Civic Gallery!
+    </a>
+    <br></br>
+
+
+    <img src="./picsMain/Challenger2023.avif" width = 750>
+    <h2><a href="https://www.dodge.com/challenger.html" target = _self title = "this takes you to Dodge's website" > 
+    #6 - Dodge Challenger R/T 2023
+    </a></h2>
+    <h3>Stats: </h3>
+    <ul>
+        <li>MSRP: $41,640</li>
+        <li>engine: 5.7L HEMI V8</li>
+        <li>0-60: 4.8 seconds</li>
+        <li>horsepower: 375 at 5,150 rpm</li>
+        <li>torque: 410 lb-ft at 4,300 rpm</li>
+        <li>transmission: 6 speed manual or 8 speed auto</li>
+    </ul>
+    <br></br>
+    The <b>Dodge Challenger</b>  is an American muscle car with serious attitude. Its got some serious retro-inspired looks with 
+    combined with modern power. If you just love that classic American coupe vibe, the Challenger delivers. But this just makes
+    the discontinuation of the gas challenger even sadder, as it signals the end of the American muscle car era. Overall though, the 
+    challenger doesnt exactly look that cool or unique in my eyes, as it somehow also blends in with regular traffic despite its retro 
+    modern design. I cant pinpoint exactly where the design is lacking, but older challengers are definately better that the new one. 
+    Furthermore, this car is too heavy and heavy cars dont seem very fun to drive, so its definately being held back a couple of points. 
+    <br></br>
+    <audio controls>
+        <source src = "./soundMain/ChallengerSound.m4a">
+        <source src = "./soundMain/ChallengerSound.mp4">
+        this web browser doesnt support our provided audio file types
+    </audio>
+    <h3>The Patrick Scale: </h3>
+    <ul>
+        <li>Rizz: 4/5</li>
+        <li>GYAT: 3/5</li>
+        <li>Attention grabbing: 3/5</li>
+        <li>fun to drive: 2/5</li>
+        <li>legacy:5/5</li>
+        <li><b>OVERALL: 17/25</b></li>
+    </ul>
+    <a href="challengerGallery.html" target = _blank > 
+        Challenger Gallery!
+    </a>
+    <br></br>
+
+    <a href="https://en.m.wikipedia.org/wiki/Alpha_and_beta_male#Sigma_male" target = _blank></a>
+        <img src="./picsMain/Miata2024.png" width="750" alt = "a sigma standing near his miata" title = "a sigma standing near his miata">
+    </a>
+    <h2><a href="https://www.mazdausa.com/vehicles/mx-5-miata" title = "this takes you to Mazda's website">
+    #5 - Mazda MX 5 Miata Grand Touring 2024 
+    </a>
+    <br></br>
+    <h3>Stats: </h3>
+    <ul>
+        <li>MSRP: $37,350</li>
+        <li>engine: 2.0L inline 4</li>
+        <li>0-60: 5.7 seconds</li>
+        <li>horsepower: 181 at 7,000 rpm</li>
+        <li>torque: 151 lb-ft at 4,000 rpm</li>
+        <li>transmission: 6 speed manual or 6 speed auto</li>
+    </ul>
+    </h2>
+    The <b>Mazda MX-5 Miata</b> is getting into fun and zippy territory now. For the price, you dont get a lot of car so it looses out 
+    especially for GYATT, but I think Mazda's priority with the MX-5 was quality over quantity because it seems like a blast on the weekends. 
+    Its a cute car, so its got tons of rizz, and its built to be so tiny that it stands out amongst traffic. The main issues with the miata is 
+    that it doesnt have rear seats so you cant fit all the bois in one car, and the shorter wheelbase probably makes it harder to actually 
+    drift with. 
+    <br></br>
+        <audio controls src = "./soundMain/MiataSound.m4a"></audio>
+        <h3>The Patrick Scale: </h3>
+    <ul>
+        <li>Rizz: 4/5</li>
+        <li>GYAT: 1/5</li>
+        <li>Attention grabbing: 5/5</li>
+        <li>fun to drive: 3/5</li>
+        <li>legacy:5/5</li>
+        <li><b>OVERALL: 18/25</b></li>
+    </ul>
+    <br></br>
+    <a href = "miataGallery.html">
+        Miata Gallery!
+    </a>
+    <br></br>
+    <img src="./picsMain/M22025.jpg" width = 750>
+
+
+    <h2><a href="https://www.bmwusa.com/vehicles/m-models/m2-coupe/overview.html" target = _blank title = "this takes you to BMW's website" > 
+    #4 - BMW M2 2024
+    </a></h2>
+    <h3>Stats: </h3>
+    <ul>
+        <li>MSRP: $64,900</li>
+        <li>engine: 3.0L turbocharged Inline 8</li>
+        <li>0-60: 4.3 seconds</li>
+        <li>horsepower: 453 at 6,250 rpm</li>
+        <li>torque: 406 lb-ft at 2,650 rpm</li>
+        <li>transmission: 6 speed manual or 8 speed auto</li>
+    </ul>
+    The <b>BMW M2</b> is a compact powerhouse that packs big performance into a hard to miss package. With its gnarly sounding
+    turbocharged engine, this car is hard to beat on the rizz meter. This one is definately on the pricy side for what its worth 
+    in legacy (spoiler alert, it doesnt have a lot of history), but it’s still up there as a small, mighty, and absolutely 
+    impossible to miss car!
+    <br></br>
+    <audio controls>
+        <source src = "./soundMain/M2Sound.m4a">
+        this web browser doesnt support our provided audio file types
+    </audio>
+    <h3>The Patrick Scale: </h3>
+    <ul>
+        <li>Rizz: 4/5</li>
+        <li>GYAT: 4/5</li>
+        <li>Attention grabbing: 5/5</li>
+        <li>fun to drive: 4/5</li>
+        <li>legacy:1/5</li>
+        <li><b>OVERALL: 18/25</b></li>
+    </ul>
+    <br></br>
+    <!--open the page in a new tab (by specifying target = _blank)-->
+    <a href="m2Gallery.html" target = _blank > 
+        M2 Gallery!
+    </a>
+    <br></br>
+
+
+    <img src="./picsMain/Mustang2025.jpg" width = 750>
+    <h2><a href="https://www.ford.com/cars/mustang/2024/models/gt-fastback/" target = _blank title = "this takes you to Ford's website" > 
+    #3 - Ford Mustang GT Fastback 2025
+    </a></h2>
+    <h3>Stats: </h3>
+    <ul>
+        <li>MSRP: $58,345</li>
+        <li>engine: 5.0L turbocharged V8</li>
+        <li>0-60: 4.3 seconds</li>
+        <li>horsepower: 486 at 7,250 rpm</li>
+        <li>torque: 418 lb-ft at 4,900 rpm</li>
+        <li>transmission: 6 speed manual or 10 speed auto</li>
+    </ul>
+    The <b>Ford Mustang</b> is an American icon. With its powerful engine, 
+    retro design, and thrilling performance, this pony car is built to do doughnuts in high school parking lots. 
+    Its got an AMAZING GYATT due to its well implemented retro inspired rear end and it probably drives similarly to older models 
+    giving it amazing legacy. But its front end is missing style due to the minimalist design, making it less attention grabbing 
+    than I would like for a car of this caliber. 
+    <br></br>
+    <audio controls>
+        <source src = "./soundMain/Mustang sound.m4a">
+        this web browser doesnt support our provided audio file types
+    </audio>
+    <br></br>
+    <h3>The Patrick Scale: </h3>
+    <ul>
+        <li>Rizz: 4/5</li>
+        <li>GYAT: 5/5</li>
+        <li>Attention grabbing: 2/5</li>
+        <li>fun to drive: 4/5</li>
+        <li>legacy:5/5</li>
+        <li><b>OVERALL: 20/25</b></li>
+    </ul>
+    <br></br>
+    <a href="mustangGallery.html" target = _blank > 
+        Mustang Gallery!
+    </a>
+    <br></br>
+
+
+    <img src="./picsMain/Supra2024.avif" width = 750>
+    <h2><a href="https://www.toyota.com/grsupra/" target = _blank title = "this takes you to Toyota's website" > 
+    #2 - Toyota Supra A91-MT Edition 2023
+    </a></h2>
+    <h3>Stats: </h3>
+    <ul>
+        <li>MSRP: $58,345</li>
+        <li>engine: 3.0L turbocharged inline 6</li>
+        <li>0-60: 3.9 seconds</li>
+        <li>horsepower: 382 at 5,800 rpm</li>
+        <li>torque: 368 lb-ft at 1,800 rpm</li>
+        <li>transmission: 6 speed manual</li>
+    </ul>
+    The <b>Toyota Supra</b> is a masterpiece of performance and design. Unfortunately, Toyota dropped the 2JZ opting for a BMW engine instead 
+    which is a real bummer to the legacy of this car as one of the most tuneable street racers in the past. Otherwise, there isnt much to 
+    complain about as it is still one of the most handsome cars out there. Everything from the slope of the front end to the proportions of 
+    the hood to cab ratio is amazing eye candy and this handsome car will for sure catch anyone's attention in the parking lot. 
+    <br></br>
+    <audio controls>
+        <source src = "./soundMain/SupraSound.m4a">
+        this web browser doesnt support our provided audio file types
+    </audio>
+    <br></br>
+    <h3>The Patrick Scale: </h3>
+    <ul>
+        <li>Rizz: 4/5</li>
+        <li>GYAT: 3/5</li>
+        <li>Attention grabbing: 5/5</li>
+        <li>fun to drive: 5/5</li>
+        <li>legacy:5/5</li>
+        <li><b>OVERALL: 22/25</b></li>
+    </ul>
+    <br></br>
+    <a href="supraGallery.html" target = _blank > 
+        Supra Gallery!
+    </a>
+    <br></br>
+
+
+    <img src="./picsMain/400z.avif" width = 750>
+    <h2><a href="https://www.nissanusa.com/vehicles/sports-cars/nissan-z.html" target = _blank title = "this takes you to Nissan's website" > 
+    #1 - Nissan 400z Nismo 2024
+    </a></h2>
+    <h3>Stats: </h3>
+    <ul>
+        <li>MSRP: $65,750</li>
+        <li>engine: 3.0L twin turbo V6</li>
+        <li>0-60: 5.3 seconds</li>
+        <li>horsepower: 420 at 6,400 rpm</li>
+        <li>torque: 384 lb-ft at 2,000 rpm</li>
+        <li>transmission: 9 speed automatic</li>
+    </ul>
+    The <b>Nissan 400Z</b> has one of the most beutiful GYATs I have ever seen on a car. The black accent on the back is a real nice touch by
+    nissan and definately took a lot of work designing. Alongside its versitile engine and moderately strong legacy, it’s a sleek and (somewhat!) 
+    affordable car that is the most handsome of them all. I know I dogged on the mx-5 for not having rear seats, but I dont even care about that 
+    anymore when it comes to the Z, as owning a Z has been one of my dreams since childhood. I am glad Nissan continues to come out with new 
+    Z cars while also being a manufacturer of common traffic so as older Z models age, prospective buyers have more reliable options to choose from. 
+    <br></br>
+    <audio controls>
+        <source src = "./soundMain/400ZSound.m4a">
+        this web browser doesnt support our provided audio file types
+    </audio>
+    <br></br>
+    <h3>The Patrick Scale: </h3>
+    <ul>
+        <li>Rizz: 5/5</li>
+        <li>GYAT: 5/5</li>
+        <li>Attention grabbing: 4/5</li>
+        <li>fun to drive: 5/5</li>
+        <li>legacy:4/5</li>
+        <li><b>OVERALL: 23/25</b></li>
+    </ul>
+    <br></br>
+    <a href="400zGallery.html" target = _blank > 
+        400Z Gallery!
+    </a>
+    <br></br>
+
+
+    <br></br>
+    <h2>Conclusion</h2>
+    so there you have it! the list of the top 10 most handsome, capable, and affordable modern sports cars. You may have seen that I am 
+    partially biased towards JDM cars, and that may be true. But hey, its objectively true that Nissan and Toyota know how to make a good 
+    car as they are some of the most popular automotive manufacturers in the USA. Also, the Mustang and Challenger would have ranked higher 
+    if Ford and Dodge had spent more time designing a handsome car. In the end, now you all know some of my favorite cars so when the times 
+    are going well, feel free to get me either of these as a gift!
+
+    <h2>More Rankings:</h2>
+    <br></br>
+
+    <!--tables in HTML-->
+    <!--table tag starts a table, bgcolor attribute for this tag sets the color for the table dividers-->
+    <!--tr is a new row tag, bgcolor attribute for this tag sets the background color for this row-->
+    <!--th is a new table header tag, they are bold by default-->
+    <!--td is a new table data tag-->
+    <h3>Top 10 Most Handsome, Capable, and Affordable Modern Sports Cars</h3>
+    <table bgcolor = "black">
+        <tr bgcolor = "grey">
+            <th>10.</th>
+            <th>9.</th>
+            <th>8.</th>
+            <th>7.</th>
+            <th>6.</th>
+            <th>5.</th>
+            <th>4.</th>
+            <th>3.</th>
+            <th>2.</th>
+            <th>1.</th>
+        </tr>
+        <tr bgcolor = "lightgrey">
+            <td>VW Golf R 2025</td>
+            <td>Hyndai Elentra N 2024</td>
+            <td>Subaru WRX STI 2021</td>
+            <td>Honda Civic Type R 2024</td>
+            <td>Dodge Challenger R/T 2023</td>
+            <td>Mazda MX-5 Miata Grand Touring 2024</td>
+            <td>BMW M2 2024</td>
+            <td>Ford Mustang GT Fastback 2025</td>
+            <td>Toyota Supra A91-MT Edition 2023</td>
+            <td>Nissan 400z Nismo 2024</td>
+        </tr>
+    </table>
+
+    <!--if you want the cells in the table to be the same width, adjust the width attribute-->
+    <h3>Top Cars In the List By Country of Origin</h3>
+    <table bgcolor = "black">
+        <tr bgcolor = "grey">
+            <th width = "100">USA</th>
+            <th width = "100">Japan</th>
+            <th width = "100">Korea</th>
+            <th width = "100">Germany</th>
+        </tr>
+        <tr bgcolor = "lightgrey">
+            <td >Ford Mustang GT Fastback 2025</td>
+            <td>Nissan 400z Nismo 2024</td>
+            <td>Hyndai Elentra N 2024</td>
+            <td>BMW M2 2024</td>
+        </tr>
+    </table>
+</body>
+</html>
